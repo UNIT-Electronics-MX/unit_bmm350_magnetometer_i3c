@@ -50,3 +50,8 @@
 | INT       | Interrupt        | Optional, for interrupt-driven operation |
 
 </div>
+
+
+## Reference Technical Documentation
+
+- [BMM350 Datasheet](https://www.bosch-sensortec.com/products/motion-sensors/magnetometers/bmm350/)
