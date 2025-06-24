@@ -10,12 +10,15 @@ The **UNIT BMM350 Magnetometer I3C Module** is a compact and efficient magnetome
 
 
 ## 📦 Overview
+<div align="center">
 
 | Feature                | Description                                                   |
 |------------------------|---------------------------------------------------------------|
 | Sensor                 | BMM350 Magnetometer                                           |
 | Communication Protocol | I3C                                                          |
 | Power Supply           | 3.3V or 5V                                                    |
+
+</div>
 
 
 ## 🧪 Use Cases

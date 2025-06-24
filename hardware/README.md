@@ -11,7 +11,12 @@
 
 
 
+
+
 ## ⚙️ Technical Specifications
+
+
+<div align="center">
 
 | Parameter                                      | Technical data                                                                                         |
 |------------------------------------------------|--------------------------------------------------------------------------------------------------------|
@@ -28,9 +33,13 @@
 | TCO error (typ.)                               | ± 200 nT/K                                                                                             |
 | Maximum sampling rate                          | 400 Hz (normal mode)                                                                                   |
 
+</div>
+
 ## 🔌 Pinout
 
 ![Pinout Diagram](docs/pinout.png)
+
+<div align="center">
 
 | Pin Label | Function        | Notes                             |
 |-----------|------------------|-----------------------------------|
@@ -40,3 +49,4 @@
 | SCL       | I3C Clock Line   | Connect to I3C clock line        |
 | INT       | Interrupt        | Optional, for interrupt-driven operation |
 
+</div>
