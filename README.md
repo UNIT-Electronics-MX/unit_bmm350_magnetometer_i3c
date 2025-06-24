@@ -1,63 +1,29 @@
 
-# Development Board Template
-
-A generic and modular development board based on the [Microcontroller Name], designed for rapid prototyping, embedded systems education, IoT experimentation, and wearable devices. This board combines flexible power options, modern connectivity, and accessible interfaces to accelerate your hardware development.
+# UNIT BMM350 Magnetometer I3C Module
 
 <div align="center">
-  <img src="hardware/resources/board_image.png" width="450px" alt="Development Board">
-  <p><em>[Replace with board name or logo]</em></p>
+  <img src="hardware/resources/unit_top_v_1_0_0_bmm350_magnetometer_i3c.png" width="450px" alt="Development Board">
+  <p><em>BMM350 Magnetometer</em></p>
 </div>
+
+The **UNIT BMM350 Magnetometer I3C Module** is a compact and efficient magnetometer designed for magnetic field sensing. It utilizes the BMM350 sensor from Bosch, which supports I3C communication for fast data transfer and low power consumption. I3C is a modern communication protocol that allows multiple devices to be connected on the same bus, making it ideal for applications requiring multiple sensors.
+
 
 ## 📦 Overview
 
-| Feature                 | Description                                                   |
+| Feature                | Description                                                   |
 |------------------------|---------------------------------------------------------------|
-| **Microcontroller**     | [ESP32-S3, RP2040, STM32, etc.]                               |
-| **Connectivity**        | [Wi-Fi, Bluetooth LE, USB, etc.]                              |
-| **I/O Voltage**         | [3.3V / 5V compatible]                                        |
-| **Power Options**       | [USB-C, LiPo Battery, External Vin]                           |
-| **Programming**         | [Arduino IDE, PlatformIO, ESP-IDF, MicroPython, etc.]         |
-| **Expansion**           | [QWIIC, Grove, Header Pins, etc.]                             |
+| Sensor                 | BMM350 Magnetometer                                           |
+| Communication Protocol | I3C                                                          |
+| Power Supply           | 3.3V or 5V                                                    |
 
-
-## ⚙️ Technical Specifications
-
-- **Microcontroller:** [Insert name and variant]
-- **Core Architecture:** [Xtensa / ARM Cortex-M / RISC-V]
-- **Clock Speed:** [e.g., 240 MHz]
-- **Flash / RAM:** [e.g., 8 MB Flash, 2 MB PSRAM]
-- **Wireless:** [2.4 GHz Wi-Fi, BLE 5.0]
-- **Interfaces:**
-  - UART / I2C / SPI / PWM
-  - USB Device or Host (if supported)
-- **Power:**
-  - Input via USB-C: 5V
-  - Regulated Output: 3.3V
-  - Battery Support: [Yes / No]
-- **Dimensions:** [e.g., 55mm x 25mm]
-
-
-## 🔌 Pinout
-
-Include a diagram like `docs/pinout.png` or describe functionally:
-
-| Pin Label | Function        | Notes                             |
-|-----------|------------------|-----------------------------------|
-| D0–D13    | GPIO             | Digital I/O                       |
-| A0–A7     | ADC              | 12-bit resolution                 |
-| TX / RX   | UART             | Serial communication              |
-| SDA / SCL | I2C              | Compatible with QWIIC modules     |
-| MISO / MOSI / SCK / CS | SPI | Display or Flash expansion       |
-| VCC / GND | Power            | 3.3V logic and power distribution |
 
 ## 🧪 Use Cases
 
-- IoT Sensor Nodes
-- Wearable Devices
-- Environmental Monitoring
-- Educational Electronics
-- Automation Prototyping
-
+- **Magnetic Field Sensing**: Ideal for applications requiring precise magnetic field measurements.
+- **Navigation Systems**: Can be used in conjunction with other sensors for accurate positioning.
+- **Robotics**: Useful in robotic applications for orientation and navigation.
+- **Consumer Electronics**: Can be integrated into smartphones, tablets, and wearables for enhanced functionality.
 
 
 ## 🚀 Getting Started
@@ -67,7 +33,7 @@ Include a diagram like `docs/pinout.png` or describe functionally:
    - Arduino IDE
    - PlatformIO
    - ESP-IDF / Pico SDK
-3. **Flash** a sample project or use one from `/firmware/`
+3. **Flash** a sample project or use one from `/software/examples`
 4. **Power** via USB or external battery (if supported)
 
 
@@ -89,14 +55,6 @@ Please refer to [`LICENSE.md`](LICENSE.md) for full terms.
 
 
 <div align="center">
-  <sub>Template created by UNIT Electronics • Adapt this file to document your board!</sub>
+  <sub>Template created by UNIT Electronics</sub>
 </div>
 
-### ✅ What You Can Do with This Template:
-
-* Fork it for new development board projects.
-* Fill in specs, pinout, and MCU details.
-* Add images, schematics, and test code.
-
-
-Would you like a downloadable `.zip` of this full structure including placeholder images and files (`hardware/`, `docs/`, `firmware/`, etc.)?
